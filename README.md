@@ -15,3 +15,32 @@ LIKE %re% finds values that have ‘re’ in any position
 LIKE _a% finds any values that have the letter ‘a’ in the second index
 LIKE a_%_% finds any values that start with ‘a’ and are at least 3 characters in length.
 LIKE a%r finds any values that start with ‘a’ and end with ‘r’.
+
+7.It is not possible to test for NULL values with comparison operators, such as = and !=.
+Instead, we will have to use these operators:
+IS NULL
+IS NOT NULL
+
+8.BETWEEN: used in a WHERE clause to filter the result set within a certain range
+9.AND
+ operator displays a row if all the conditions are true.
+
+OR
+ operator displays a row if any condition is true.
+
+ 10.DESC is a keyword used in ORDER BY to sort the results in descending order (high to low or Z-A).
+
+ASC is a keyword used in ORDER BY to sort the results in ascending order (low to high or A-Z).
+
+11.
+LIMIT
+ is a clause that lets you specify the maximum number of rows the result set will have.
+
+12.A 
+Preview: Docs Returns different output based on the conditions of each statement.
+CASE
+ statement allows us to create different outputs (usually in the 
+Preview: Docs Every SQL query will begin with the SELECT command to fetch data from one or more tables.
+SELECT
+ statement). It is SQL’s way of handling if-then logic.
+
