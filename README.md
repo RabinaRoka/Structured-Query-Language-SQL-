@@ -44,3 +44,17 @@ Preview: Docs Every SQL query will begin with the SELECT command to fetch data f
 SELECT
  statement). It is SQL’s way of handling if-then logic.
 
+
+ 13.Preview: Docs Loading link description
+COUNT()
+: count the number of rows
+SUM()
+: the sum of the values in a column
+MAX() /
+MIN()
+: the largest/smallest value
+AVG()
+: the average of the values in a column
+ROUND()
+: round the values in the column
+
