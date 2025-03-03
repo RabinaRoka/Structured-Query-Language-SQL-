@@ -58,3 +58,6 @@ AVG()
 ROUND()
 : round the values in the column
 
+14.Sometimes we just want to stack one dataset on top of the other. Well, the 
+UNION operator allows us to do that.
+
